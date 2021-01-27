@@ -21,7 +21,7 @@ type AuthMiddleware struct {
 
 func (AuthMiddleware) CaddyModule() caddy.ModuleInfo {
 	return caddy.ModuleInfo{
-		ID:  "http.authentication.providers.finex-jwt",
+		ID:  "http.authentication.providers.jwt",
 		New: func() caddy.Module { return new(AuthMiddleware) },
 	}
 }
