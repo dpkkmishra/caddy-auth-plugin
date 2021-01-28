@@ -22,7 +22,7 @@ import (
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp/caddyauth"
 	jwtauth "github.com/greenpau/caddy-auth-jwt/pkg/auth"
-	uuid "github.com/satori/go.uuid"
+	"github.com/satori/go.uuid"
 )
 
 func init() {
